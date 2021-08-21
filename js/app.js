@@ -103,9 +103,9 @@ document.getElementById('apply').addEventListener('click', function () {
         console.log(totalPrice);
         const coupon = document.getElementById('final-price');
         coupon.innerText = totalPrice.innerText - totalPrice.innerText * 0.2;
-
     }
     else {
         window.alert('wrong coupon');
     }
+    steveKaku.value = '';
 });
