@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Mac book pro purchase configuration assignment</title>
+    <!-- bootstrap css link -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- own css -->
+    <style>
+        button:hover {
+            background-color: gray;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+
+        <div class="container">
+            <div class="row  ">
+                <div class="col ">
+                    <img class="img-fluid" src="images/mac.png" alt="">
+                </div>
+                <div class="col ms-5 ">
+                    <h1>
+                        Customize your Blue 24-inch iMac with Apple M1 chip.
+                    </h1>
+                    <p>
+                        Apple M1 chip with 8-core CPU with 4 performance cores and 4 efficiency cores,7-core GPU, and
+                        16-core Neural Engine 8GB unified memory 256 SSD storage Two thunderbolt/ USB 4 ports Magic
+                        Mouse Magic Keyboard-US English
+                    </p>
+
+                    <!-- memory -->
+
+                    <h3 class="mt-5">Memory</h3>
+                    <button id="eight-gb-memory" class="p-2 ">8GB unified memory</button>
+                    <button id="sixteen-gb-memory" class="p-2">16GB unified memory</button>
+
+                    <!-- storage -->
+
+                    <h3 class="mt-5">Storage</h3>
+                    <button id="first-ssd-storage" class="p-2">256GB SSD storage</button>
+                    <button id="second-ssd-storage" class="p-2">512GB SSD storage</button>
+                    <button id="third-ssd-storage" class="p-2">1TB SSD storage</button>
+
+                    <!-- delivery option -->
+                    <h3 class="mt-5">Chose your delivery option</h3>
+                    <button id="free-prime-delivery" class="p-2">Friday,Aug 25 Free Prime Delivery</button>
+                    <button id="delivery-charge" class="p-2">Friday,Aug 21 Delivery charge $20</button>
+
+                    <!-- price table -->
+
+                    <table class="table mt-5">
+
+
+                        <tbody>
+                            <tr>
+
+                                <td class="fw-bold">Best Price</td>
+                                <td class="fw-bold">$<span id="best-price">1299</span></td>
+
+                            </tr>
+                            <tr>
+                                <td class="fw-bold">Extra Memory Cost</td>
+                                <td class="fw-bold">$<span id="memory-cost">0</span></td>
+
+                            </tr>
+                            <tr>
+                                <td class="fw-bold">Extra Storage Cost</td>
+                                <td class="fw-bold">$<span id="storage-cost">0</span></td>
+                            </tr>
+                            <tr>
+                                <td class="fw-bold">Delivery Charge</td>
+                                <td class="fw-bold">$<span id="delivery-cost">0</span></td>
+
+                            </tr>
+
+
+
+                        </tbody>
+                        <tr>
+                            <td class="fw-bold">Total Price</td>
+                            <td class="fw-bold">$ <span id="total-price">1299</span></td>
+                        </tr>
+                        <tr>
+                            <td class="fw-bold">Add promo code</td>
+                        </tr>
+
+
+
+                    </table>
+                    <tr class="mb-5">
+                        <input id="steveKaku" type="text">
+                        <button id="apply" class="bg-danger text-white rounded-1">Apply</button>
+                    </tr>
+                </div>
+
+            </div>
+            <hr class="w-75">
+            <div class="fw-bold mb-4">
+                <h2 class="text-center ">Total :$<span id="final-price">1299</span></h2>
+            </div>
+        </div>
+    </main>
+
+
+
+    <!-- bootstrap js link -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- own js link -->
+    <script src="js/app.js"></script>
+</body>
+
+</html>
